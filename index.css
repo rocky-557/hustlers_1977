@@ -23,6 +23,11 @@ body{
     justify-content: center;
 }
 
+.days{
+    display: flex;
+    justify-content: center;
+}
+
 .day{
     margin: 0 5rem 0 5rem;
     display: flex;
@@ -37,7 +42,7 @@ body{
 
 .ov{
 
-    background: linear-gradient(#ffffff,#c1ff3f)
+    background: linear-gradient(#ffffff,90%,#c1ff3f)
 }
 .pp{
     display: flex;
@@ -106,4 +111,13 @@ body{
 
 #bnav i{
     
+}
+
+.m{
+    margin: 24px;
+    padding: 16px;
+}
+
+.m .row{
+    border-bottom: 1px solid black;
 }
