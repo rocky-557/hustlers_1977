@@ -6,9 +6,10 @@ export let key=""
 export let auth = [["Auther Name","Song Name"],["Auther Name","Song Name"],["Auther Name","Song Name"],["Auther Name","Song Name"],["Auther Name","Song Name"],["Auther Name","Song Name"],["Auther Name","Song Name"],["Auther Name","Song Name"]]
 </script>
 
-
+<p>{key}</p>
 <div>
-    <p>{key}</p>
+    
+   
     {#each auth as au}
         <M authr={au[0]} song={au[1]}/>
     {/each} 
@@ -31,7 +32,10 @@ div::-webkit-scrollbar{
     display: none;
 }
 
-p{
+p{  margin: 12px;
+    font-size: 1.5rem;
+    text-align: left;
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }

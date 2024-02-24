@@ -12,26 +12,26 @@ useColorMode("dark") ;
   </NavItem>
   
   <NavItem>
-    <NavLink href="#">Home</NavLink>
+    <NavLink style="color: white;"href="#">Home</NavLink>
   </NavItem>
   <NavItem>
-    <NavLink href="#">Artists</NavLink>
+    <NavLink style="color: white;"href="#">Artists</NavLink>
   </NavItem>
   
   <NavItem>
-    <NavLink href="#">Schedule</NavLink>
+    <NavLink style="color: white;" href="#">Schedule</NavLink>
   </NavItem>
   <NavItem>
-    <NavLink href="#">Label</NavLink>
+    <NavLink style="color: white;"href="#">Label</NavLink>
   </NavItem>
   <NavItem>
-    <NavLink href="#">Shops</NavLink>
+    <NavLink style="color: white;"href="#">Shops</NavLink>
   </NavItem>
   <NavItem>
-    <NavLink href="#">Channels</NavLink>
+    <NavLink style="color: white;"href="#">Channels</NavLink>
   </NavItem>
   <NavItem>
-    <NavLink href="#">Search</NavLink>
+    <NavLink style="color: white;" href="#">Search</NavLink>
   </NavItem>
   
 </Nav>

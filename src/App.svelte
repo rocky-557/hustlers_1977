@@ -23,11 +23,11 @@
     <Maind key={"Live from the club"} />
     <Maind />
     <img src={k} alt="">
-    <Maind />
+    <Maind key={"Highlights"}/>
     <Maind />
     <img src={k} alt="">
-    <Maind/>
-    <Maind />
+    <Maind key={"From the Vault"}/>
+    <Maind key={"Radio Highlights"}/>
     <img style="width:100%" src={l} >
   </div>
 
@@ -55,6 +55,10 @@
   }
   .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  img{
+    width: 100%;
   }
   
 </style>
