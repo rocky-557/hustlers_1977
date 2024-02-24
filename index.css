@@ -1,0 +1,29 @@
+body{
+     height: 100%;
+     width: 100%;
+     font-family: "Pathway Gothic One", sans-serif;
+     
+
+}
+
+.top{
+    text-align: center;
+    font-size: 50rem;
+    font-weight: bolder;
+}
+
+.ppp{
+    display: flex;
+    justify-content: center;
+}
+
+.pp{
+    display: flex;
+    flex:0.25;
+    margin:  5rem 0 5rem;
+    flex-direction: column;
+    padding: 0 10rem 0 10rem; 
+    justify-content: center;
+    align-items: center;
+  
+}
