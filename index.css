@@ -1,0 +1,17 @@
+#up-events{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.nav-top{
+    border: 1px solid black;
+}
+
+.up-nav li{
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 63px;
+    margin: 3px;
+    padding: 1%;
+}
