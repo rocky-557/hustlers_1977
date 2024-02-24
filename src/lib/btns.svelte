@@ -1,13 +1,14 @@
 <script>
-
+import log from '/home/rocky/svelte-template/s1/hustlers_1977_Round1_easy/src/assets/logo.jpeg'
 
 </script>
 
 <div class="btns">
-<div class="btn">Rinse UK</div>
-<div class="btn">Rinse France</div>
-<div class="btn">Kool FM</div>
-<div class="btn">SWFU FM</div>
+<div class="btn">
+    <img src={log}> Rinse UK</div>
+<div class="btn"><img src={log}> Rinse France</div>
+<div class="btn"><img src={log}> Kool FM</div>
+<div class="btn"><img src={log}> SWFU FM</div>
 
 
 </div>
@@ -22,7 +23,7 @@
 
 .btn{
     margin: 1.5rem ;
-    background-color: #e4e4e4;
+    background-color: white;
     border-radius: 3rem;
 color: black;
     padding: 1rem;

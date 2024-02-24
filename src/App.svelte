@@ -4,6 +4,8 @@
   import Counter from './lib/nav.svelte'
   import Btns from './lib/btns.svelte';
   import Maind from './lib/maind.svelte';
+  import k from "/home/rocky/svelte-template/s1/hustlers_1977_Round1_easy/src/assets/k.jpeg"
+  import l from "/home/rocky/svelte-template/s1/hustlers_1977_Round1_easy/src/assets/l.jpeg"
   
 </script>
 
@@ -18,7 +20,15 @@
     
     <div class="box"></div>
     <Btns />
+    <Maind key={"Live from the club"} />
     <Maind />
+    <img src={k} alt="">
+    <Maind />
+    <Maind />
+    <img src={k} alt="">
+    <Maind/>
+    <Maind />
+    <img style="width:100%" src={l} >
   </div>
 
 
@@ -30,7 +40,7 @@
   .box{
     width: 100%;
     height: 25rem;
-    background-color: rgb(160, 102, 102);
+    background-color: rgb(0, 0, 0);
   }
 
   main{
