@@ -1,0 +1,4 @@
+
+function clik(){
+    alert('hi');
+}
